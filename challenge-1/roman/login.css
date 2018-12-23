@@ -1,0 +1,111 @@
+body{
+	background: rgba(117,215,147,1);
+	background: -moz-linear-gradient(-45deg, rgba(117,215,147,1) 0%, rgba(37,165,166,1) 68%, rgba(37,165,166,1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(117,215,147,1)), color-stop(68%, rgba(37,165,166,1)), color-stop(100%, rgba(37,165,166,1)));
+	background: -webkit-linear-gradient(-45deg, rgba(117,215,147,1) 0%, rgba(37,165,166,1) 68%, rgba(37,165,166,1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(117,215,147,1) 0%, rgba(37,165,166,1) 68%, rgba(37,165,166,1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(117,215,147,1) 0%, rgba(37,165,166,1) 68%, rgba(37,165,166,1) 100%);
+	background: linear-gradient(135deg, rgba(117,215,147,1) 0%, rgba(37,165,166,1) 68%, rgba(37,165,166,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75d793', endColorstr='#25a5a6', GradientType=1 );
+	line-height: 1.25;
+}
+
+fieldset {
+   border:0 none;
+}
+
+label{
+	font-size: 14px;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	display:block;
+	margin: 0 0 0 25px;
+}
+
+input{
+	height: 40px;
+	width: 440px;
+	margin: -10px 0 20px 10px;
+	text-indent: 10px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+p{
+	margin: 1em/*or 16px0px*/ 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+.contaner{
+	overflow: hidden;
+	width: 1800px;
+	height: 940px;
+}
+
+.box{
+	white-space: nowrap;
+}
+
+.logo{
+	margin: 7% 0 0 34%;
+}
+
+
+.form{
+	background-color: white;
+	width: 500px;
+	height: 420px;
+	float: left;
+	border-radius: 5px;
+	border: solid 1px grey;
+	display:inline-block;
+	margin: 2% 0 0 25%;
+}	
+
+.imgpng{
+	width: 500px;
+	height: 800px;
+	display:inline-block;
+	margin: -3% 0 0 -2%;
+}
+
+
+.priziv {
+	font-size: 30px;
+	text-align: center;
+}
+
+
+
+.button{
+	background: rgb(47, 136, 226);
+	border-radius: 3px;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+	display: table;
+	padding: 12px 30px;
+	float: right;
+	margin: 0 30px 20px 0;
+}
+
+.forgotter{
+	clear: right;
+	font-size: 18px;
+	text-align: center;
+	font-weight: 100;
+
+}
+
+.wonnareg{
+	margin: 0 0 0 5em;
+	font-size: 18px;
+	color: white;
+	font-weight: bolder;
+}
+

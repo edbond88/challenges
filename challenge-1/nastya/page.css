@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+
+body {
+  background: linear-gradient(135deg, rgba(118,216,147,1) 0%, rgba(37,166,166,1) 100%);
+  font-family: Tahoma;
+  letter-spacing: 0.5px;
+  /*overflow: hidden;*/
+  min-height: 100%;
+    
+}
+
+.wrapper {
+  display: flex;
+  position: relative;
+}
+
+.left {
+  padding-left: 142px;
+}
+
+.logo-box {
+  padding: 45px 0 38px 0;
+  text-align: center;
+}
+
+.logo {
+  width: 176px;
+  height: 63px;
+}
+
+.code-img {
+  height: 483px;
+  width: 591px;
+}
+
+.form-box {
+  background-color: #fff;
+  border: 1px solid #D3D3D3;
+  border-radius: 4px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+h1 {
+  font-size: 20px;
+  color: #414949;
+  text-align: center;
+  padding-top: 45px;
+  padding-bottom: 35px;
+}
+
+h2 {
+  font-size: 15px;
+  color: #727B78;
+  padding-bottom: 12px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.password-box, .register {
+  display: flex;
+}
+
+input::-webkit-input-placeholder { color: #b2b9c6; }
+
+input.email, input.password {
+  width: 438px;
+  height: 38px;
+  margin-bottom: 37px;
+  border: 1px solid;
+  border-color: #E5E5E5;
+  border-radius: 3px;
+  padding-left: 11px;
+}
+
+
+.submit {
+  width: 112px;
+  height: 40px;
+  background-color: #2F88E2;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  align-self: flex-end;
+  font-size: 17px;
+}
+
+input.submit:focus {
+  outline: none;
+}
+
+input.submit:active {
+  border: 1px solid #fff;
+}
+
+input.email:focus {
+  outline: none;
+}
+
+input.password:focus {
+  outline: none;
+}
+
+.password-box {
+  color: #858888;
+  padding: 25px 0 35px 0;
+  justify-content: center;
+  font-size: 15px;
+}
+
+.password-box a {
+  color: #858888;
+  padding-left: 4px;
+}
+
+.register {
+  color: #fff;
+  justify-content: center;
+  font-size: 17px;
+  padding: 18px 0 45px 0;
+}
+
+.register a {
+  color: #fff;
+  padding-left: 4px;
+}
+
+.right {
+  position: absolute;
+  top: 80px;
+  /*right: -236px;*/
+  left: 610px;
+}
+
+
+
